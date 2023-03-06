@@ -15,7 +15,7 @@ def main():
     plt.title("Продажи с разбивкой по годам")
     plt.xlabel("Год")
     plt.ylabel("Объём продаж")
-    plt.grid(True)
+    # plt.grid(True)
     plt.show()
 
 
