@@ -11,7 +11,7 @@ def main():
     bar_width = 5
 
     # Построить гистограмму
-    plt.bar(left_adges, heights, bar_width)
+    plt.bar(left_adges, heights, bar_width, color=('r', 'g', 'b', 'y'))
     plt.title("Продажи с разбивкой по годам")
     plt.xlabel("Год")
     plt.ylabel("Объём продаж")
