@@ -10,7 +10,7 @@ def main():
     slice_labels = ['I квартал', 'II квартал', 'III квартал', 'IV квартал']
 
     # Создать из этих значений круговую диаграмму
-    plt.pie(sales, labels=slice_labels)
+    plt.pie(sales, labels=slice_labels, colors=('r', 'g', 'b', 'm', 'k'))
 
     # Добавить заголовок
     plt.title('Продажи с разбивкой по кварталам')
